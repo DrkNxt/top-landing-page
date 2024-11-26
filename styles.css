@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+hero,
+footer {
+    background-color: #1f2937;
+}
+
+header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header-link,
+hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
