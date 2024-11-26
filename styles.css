@@ -18,7 +18,6 @@ body {
     justify-content: space-between;
 }
 
-
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
@@ -48,8 +47,75 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    padding: 64px 0;
+}
+
+.hero-button {
+    background-color: #3882f6;
+}
+
 .hero-main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.hero-left,
+.hero-right {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.content {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 36px 0;
+}
+
+.info-images {
+    display: flex;
+    gap: 32px;
+}
+
+.info-img {
+    border-color: #3882F6;
+    width: 50px;
+    height: 50px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 128px 15%;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-name {
+    font-weight: 900;
+    text-align: right;
+}
+
+.footer {
+    justify-content: center;
+    padding: 24px;
 }
