@@ -101,7 +101,7 @@ a {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 128px 15%;
+    padding: 128px 20%;
 }
 
 .quote-text {
@@ -113,6 +113,9 @@ a {
 .quote-name {
     font-weight: 900;
     text-align: right;
+}
+.signup-box {
+    display: flex;
 }
 
 .footer {
